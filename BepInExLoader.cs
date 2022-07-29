@@ -99,7 +99,7 @@ namespace RF5.HisaCat.EnumIDNameDumper
 
                 var dumpLang = new SysLang[] { SysLang.JP, SysLang.EN, SysLang.ZH, SysLang.ZK, SysLang.KR, SysLang.FR, SysLang.DE };
 
-                var dumpPath = System.IO.Path.Combine(Paths.PluginPath, BepInExLoader.MODNAME);
+                var dumpPath = System.IO.Path.Combine(Paths.PluginPath, BepInExLoader.MODNAME, "RF5");
                 if (System.IO.Directory.Exists(dumpPath) == false)
                     System.IO.Directory.CreateDirectory(dumpPath);
 
